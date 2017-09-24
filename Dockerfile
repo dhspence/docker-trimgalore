@@ -1,4 +1,4 @@
-FROM dhspence/docker-genomic-analysis:latest
+FROM dhspence/docker-baseimage:latest
 
 # File Author / Maintainer
 MAINTAINER David Spencer <dspencer@wustl.edu>
