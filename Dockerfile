@@ -13,7 +13,7 @@ RUN tar -xzf cutadapt-1.8.1.tar.gz && \
     
 RUN wget https://github.com/s-andrews/FastQC/archive/v0.11.8.tar.gz && \
     tar -zxf v0.11.8.tar.gz && \
-    ln -s FastQC*/fastqc /usr/local/bin/
+    ln -s /opt/FastQC*/fastqc /usr/local/bin/
 
 # Install Trim_Galore
 
